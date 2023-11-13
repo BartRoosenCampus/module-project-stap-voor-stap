@@ -15,7 +15,7 @@ $modules = $mdh->getModulesList();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/main.css">
-    <title>$Title$</title>
+    <title>Modules toevoegen</title>
 </head>
 <body>
 <div class="grid">
@@ -50,6 +50,12 @@ $modules = $mdh->getModulesList();
             </table>
 
         <?php endif; ?>
+        <div class="picture-frame">
+            <h3>Schema:</h3>
+            <a href="../img/toevoegen.php" target="_blank">
+                <img src="../img/module-toevoegen.png" alt="Module toevoegen"/>
+            </a>
+        </div>
     </div>
     <div>
         <div><?php require_once '../code/toevoegen.php'; ?></div>

@@ -53,6 +53,12 @@ $modules = $mdh->getModulesList();
                 </tbody>
             </table>
         <?php endif; ?>
+        <div class="picture-frame">
+            <h3>Schema:</h3>
+            <a href="../img/verwijderen.php" target="_blank">
+                <img src="../img/module-verwijderen.png" alt="Module verwijderen"/>
+            </a>
+        </div>
     </div>
     <div>
         <div><?php require_once '../code/verwijderen.php'; ?></div>

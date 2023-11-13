@@ -46,6 +46,12 @@ $modules = $mdh->getModulesList();
                 </tbody>
             </table>
         <?php endif; ?>
+        <div class="picture-frame">
+            <h3>Schema:</h3>
+            <a href="../img/lijst.php" target="_blank">
+                <img src="../img/modulelijst-ophalen.png" alt="Modulelijst ophalen"/>
+            </a>
+        </div>
     </div>
     <div><?php require_once '../code/afbeelden.php'; ?></div>
 </body>

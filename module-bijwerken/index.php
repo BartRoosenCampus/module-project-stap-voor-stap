@@ -58,6 +58,12 @@ $modules = $mdh->getModulesList();
                 </tbody>
             </table>
         <?php endif; ?>
+        <div class="picture-frame">
+            <h3>Schema:</h3>
+            <a href="../img/bijwerken.php" target="_blank">
+                <img src="../img/module-bijwerken.png" alt="Module bewerken"/>
+            </a>
+        </div>
     </div>
     <div>
         <div><?php require_once '../code/bijwerken.php'; ?></div>

@@ -70,3 +70,8 @@ th, td {
 img {
     width: 100%;
 }
+
+.picture-frame {
+    padding: 2em 1em;
+    background-color: whitesmoke;
+}
