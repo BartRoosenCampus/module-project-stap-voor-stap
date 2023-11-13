@@ -15,7 +15,7 @@ $modules = $mdh->getModulesList();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/main.css">
-    <title>$Title$</title>
+    <title>Modules bewerken</title>
 </head>
 <body>
 <div class="grid">
